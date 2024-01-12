@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Generator</title>
     <link rel="stylesheet" href="CSS/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -12,15 +13,13 @@
         <h1>AI Generator</h1>
       </header>
       <main>
-        <div class="answer">
-          The answer of <br />
-          your question
-        </div>
+        <div class="answer" id="answer"></div>
         <form action="">
           <input
             type="text"
             placeholder="Ask your question..."
             required
+            autocomplete="off"
             class="question-bar"
             id="question-bar"
           />
