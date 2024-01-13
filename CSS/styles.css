@@ -16,7 +16,7 @@ h1 {
   color: white;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-family: Helvetica, Arial, sans-serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
@@ -28,13 +28,18 @@ h1 {
   border-left: 3px solid white;
   padding-left: 10px;
 }
+
+.answer strong {
+  color: pink;
+}
+
 form {
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
 .question-bar {
-  width: 85%;
+  width: 80%;
   height: 30px;
   border-radius: 9px;
   padding-left: 10px;
