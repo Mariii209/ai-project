@@ -5,6 +5,8 @@ function displayAnswer(response) {
     cursor: null,
     delay: 10,
   });
+  let stopblinking = document.querySelector(".answer");
+  stopblinking.classList.remove("blink");
 }
 
 function searchingAnswer(event) {
@@ -18,8 +20,10 @@ function searchingAnswer(event) {
   let context = `You're a animal expert with so much knowledge about every animal in the world. Type everything in HTML format and only in 4 lines no more than four lines of code. No heading needed please. Add at the end of the response "SheCodes AI" inside a <strong> element. don't ask for users input. follow instrustions`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let processingDisplay = document.querySelector(".answer");
+  processingDisplay.innerHTML = `Processing...`;
+
   axios.get(apiUrl).then(displayAnswer);
-  console.log("processing");
 }
 
 let formElement = document.querySelector("form");
