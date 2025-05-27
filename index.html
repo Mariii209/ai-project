@@ -9,16 +9,20 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1>Information of Animals</h1>
-      </header>
-      <main>
-        <div class="answer blink" id="answer"></div>
+    <div class="main-container">
+      <div class="container">
+        <header>
+          <h1>Talk-i-Bot</h1>
+        </header>
+        <main>
+          <div id="chat-history" class="chat-history"></div>
+          <div class="answer blink" id="answer"></div>
+        </main>
+
         <form action="">
           <input
             type="text"
-            placeholder="Ask a question about any animal ..."
+            placeholder="Ask a question to Talk-i-Bot ..."
             required
             autocomplete="off"
             class="question-bar"
@@ -26,22 +30,24 @@
           />
           <input type="submit" value="search" class="submit-button" />
         </form>
-      </main>
+      </div>
+      <footer>
+        Coded by
+        <a href="https://github.com/Mariii209" target="_blank"
+          >Maritza Gutierrez</a
+        >
+        , open-sourced on
+        <a href="https://github.com/Mariii209/ai-project" target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a
+          href="https://mariii-ai-generator-project.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
     </div>
-    <footer>
-      Coded by
-      <a href="https://github.com/Mariii209" target="_blank"
-        >Maritza Gutierrez</a
-      >
-      , open-sourced on
-      <a href="https://github.com/Mariii209/ai-project" target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://mariii-ai-generator-project.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
     <script src="JavaScript/index.js"></script>
   </body>
 </html>
