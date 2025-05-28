@@ -153,11 +153,19 @@ footer {
 @media (max-width: 675px) {
   .container {
     background-color: #343541;
-    width: 80%;
-    margin: 60px auto 20px auto;
-    border-radius: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: none;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 29px;
+  }
+
+  .question-bar {
+    font-size: 14px;
+  }
+
+  .submit-button {
+    width: 60px;
+    font-size: 12px;
   }
 }
