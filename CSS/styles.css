@@ -112,17 +112,6 @@ form {
   margin-right: 20px;
 }
 
-a {
-  color: grey;
-}
-
-footer {
-  color: white;
-  text-align: center;
-  font-size: 12px;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
 .chat-history {
   max-height: 400px;
   flex-grow: 1;
