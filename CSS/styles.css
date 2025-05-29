@@ -17,7 +17,7 @@ body {
   flex: 1;
   background-color: #343541;
   width: 80%;
-  margin: 60px auto;
+  margin: 60px auto 0;
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
@@ -149,12 +149,12 @@ form {
     font-size: 29px;
   }
 
-  .question-bar {
-    font-size: 12px;
-  }
-
   .submit-button {
     width: 60px;
-    font-size: 12px;
   }
+}
+
+.question-bar,
+.submit-button {
+  font-size: 16px; /* prevents mobile zoom */
 }
