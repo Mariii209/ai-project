@@ -151,10 +151,11 @@ form {
 
   .submit-button {
     width: 60px;
+    padding: 10px 5px;
   }
 }
 
 .question-bar,
 .submit-button {
-  font-size: 12px; /* prevents mobile zoom */
+  font-size: 16px; /* prevents mobile zoom */
 }
